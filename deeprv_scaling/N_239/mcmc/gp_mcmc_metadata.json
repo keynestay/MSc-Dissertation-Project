@@ -1,0 +1,34 @@
+{
+  "model_label": "gp",
+  "dataset_size": 239,
+  "inference_time_seconds": 251.13346793299934,
+  "seed": 0,
+  "sample_keys": [
+    "ls",
+    "mu",
+    "r",
+    "z"
+  ],
+  "sample_shapes": {
+    "ls": [
+      8000
+    ],
+    "mu": [
+      8000,
+      239
+    ],
+    "r": [
+      8000
+    ],
+    "z": [
+      8000,
+      1,
+      239
+    ]
+  },
+  "posterior_predictive_shape": [
+    8000,
+    239
+  ],
+  "samples_path": "results/deeprv_scaling/N_239/mcmc/gp_mcmc_samples.npz"
+}

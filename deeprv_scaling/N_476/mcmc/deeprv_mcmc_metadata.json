@@ -1,0 +1,34 @@
+{
+  "model_label": "deeprv",
+  "dataset_size": 476,
+  "inference_time_seconds": 277.02758575200005,
+  "seed": 0,
+  "sample_keys": [
+    "ls",
+    "mu",
+    "r",
+    "z"
+  ],
+  "sample_shapes": {
+    "ls": [
+      8000
+    ],
+    "mu": [
+      8000,
+      476
+    ],
+    "r": [
+      8000
+    ],
+    "z": [
+      8000,
+      1,
+      476
+    ]
+  },
+  "posterior_predictive_shape": [
+    8000,
+    476
+  ],
+  "samples_path": "results/deeprv_scaling/N_476/mcmc/deeprv_mcmc_samples.npz"
+}

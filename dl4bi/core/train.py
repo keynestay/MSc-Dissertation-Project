@@ -111,7 +111,7 @@ def train(
     best_state = state
     early_stop_patience = early_stop_patience or train_num_steps
     train_loss, metric, best_metric = float("inf"), float("inf"), float("inf")
-    pbar = tqdm(range(1, train_num_steps + 1), unit="batch", dynamic_ncols=True)
+    pbar = tqdm(range(1, train_num_steps + 1), unit="batch", dynamic_ncols=True, mininterval = 1.0) # EDITTED ON 7/7/2026 21:50 to include mininterval = 1.0 so that rendering does not throttle on colab
     postfix = {"Train Loss": f"{train_loss:0.4f}"}
     for i in pbar:
         batch = next(batches)
@@ -189,6 +189,7 @@ def evaluate(
         unit=" batches",
         leave=False,
         dynamic_ncols=True,
+        mininterval=1.0
     )
     metrics = defaultdict(list)
     for i, batch in enumerate(pbar):
