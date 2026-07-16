@@ -25,3 +25,5 @@ tmp
 **/wandb/**
 *.txt
 uv.lock
+results copy.zip
+results copy/
