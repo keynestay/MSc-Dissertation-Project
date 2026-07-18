@@ -1,0 +1,18 @@
+{
+  "model_name": "gMLPDeepRV",
+  "num_blks": 2,
+  "dataset_size": 476,
+  "input_dimension": 1,
+  "s_shape": [
+    476,
+    1
+  ],
+  "conditional_names": [
+    "ls"
+  ],
+  "kernel_name": "rbf",
+  "train_time_seconds": 869.3567424469998,
+  "num_train_steps": 100000,
+  "checkpoint_path": "results/train_deeprv-v2/N_500/survival/model.ckpt",
+  "locations_path": "results/train_deeprv-v2/N_500/survival/s.npy"
+}

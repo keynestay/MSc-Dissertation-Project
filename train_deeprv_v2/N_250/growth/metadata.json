@@ -1,0 +1,18 @@
+{
+  "model_name": "gMLPDeepRV",
+  "num_blks": 2,
+  "dataset_size": 111,
+  "input_dimension": 1,
+  "s_shape": [
+    111,
+    1
+  ],
+  "conditional_names": [
+    "ls"
+  ],
+  "kernel_name": "rbf",
+  "train_time_seconds": 581.404480833,
+  "num_train_steps": 100000,
+  "checkpoint_path": "results/train_deeprv-v2/N_250/growth/model.ckpt",
+  "locations_path": "results/train_deeprv-v2/N_250/growth/s.npy"
+}
