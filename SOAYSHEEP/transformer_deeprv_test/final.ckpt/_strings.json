@@ -1,0 +1,1 @@
+{"config.model.name":"KernelBiasTransformerDeepRV","config.training.output_dir":"/content/results_test/transformer_deeprv_test","config.training.wandb_mode":"disabled"}

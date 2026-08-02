@@ -1,0 +1,7 @@
+{
+  "evaluation_norm_mse": 0.13349947333335876,
+  "training_time_seconds": 10897.080293894,
+  "best_checkpoint": "/content/results_test/transformer_deeprv_test/model.ckpt",
+  "final_checkpoint": "/content/results_test/transformer_deeprv_test/final.ckpt",
+  "latest_checkpoint": "/content/results_test/transformer_deeprv_test/latest.ckpt"
+}
