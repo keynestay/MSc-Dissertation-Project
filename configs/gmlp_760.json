@@ -1,0 +1,16 @@
+{
+  "data_path": "generated/soay/size_only/data/gp_ibm_dataset.csv",
+  "output_dir": "generated/gmlp_mcmc/training",
+  "batch_size": 32,
+  "num_steps": 200000,
+  "checkpoint_interval": 25000,
+  "validation_interval": 25000,
+  "validation_steps": 5000,
+  "learning_rate": 0.001,
+  "weight_decay": 0.01,
+  "clip_norm": 3.0,
+  "num_blocks": 2,
+  "wandb_mode": "disabled",
+  "historical_data_sha256": "66c3b039ae3392d68252187d8dadd87ef19239a1da7b0417b8288dc920708660",
+  "provenance_note": "Training hyperparameters are recovered from the retained notebook; the original Colab command was not found."
+}

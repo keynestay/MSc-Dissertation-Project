@@ -1,0 +1,214 @@
+_wandb:
+    value:
+        cli_version: 0.28.1
+        e:
+            0aphkq4cr7p1jklqzt5a819vepblxi26:
+                args:
+                    - --data-path
+                    - /ceph/volumes/homes_tstudent/wolf7754/a91786a3-1773-45ee-aaee-22b14a3491b7/dl4bi/SOAYSHEEP/IBMs/Age_Size/gp_ibm_dataset_agesize.csv
+                    - --output-dir
+                    - /ceph/volumes/homes_tstudent/wolf7754/a91786a3-1773-45ee-aaee-22b14a3491b7/dl4bi/SOAYSHEEP/transformer_train_results/AGE_SIZE/transformer_deeprv_age_size_1_512_2m_job_66312
+                    - --min-locations
+                    - "1"
+                    - --max-locations
+                    - "512"
+                    - --num-steps
+                    - "2000000"
+                    - --checkpoint-interval
+                    - "100000"
+                    - --validation-interval
+                    - "400000"
+                    - --validation-steps
+                    - "10000"
+                    - --batch-size
+                    - "8"
+                    - --seed
+                    - "23"
+                    - --wandb-mode
+                    - online
+                codePath: SOAYSHEEP/transformer_deeprv_age_size/train.py
+                codePathLocal: SOAYSHEEP/transformer_deeprv_age_size/train.py
+                cpu_count: 8
+                cpu_count_logical: 8
+                cudaVersion: "12.9"
+                disk:
+                    /:
+                        total: "105089261568"
+                        used: "31227215872"
+                email: wolf7754@ox.ac.uk
+                executable: /bitbucket/wolf7754/envs/soay-deeprv/bin/python
+                gpu: NVIDIA GeForce GTX 1080 Ti
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Pascal
+                      cudaCores: 3584
+                      memoryTotal: "11811160064"
+                      name: NVIDIA GeForce GTX 1080 Ti
+                      uuid: GPU-4aea2396-7827-1e69-0bf8-bcce347eebb4
+                host: nagagpu02.cpu.stats.ox.ac.uk
+                memory:
+                    total: "404333842432"
+                os: Linux-6.8.9-300.fc40.x86_64-x86_64-with-glibc2.41
+                program: /ceph/volumes/homes_tstudent/wolf7754/a91786a3-1773-45ee-aaee-22b14a3491b7/dl4bi/SOAYSHEEP/transformer_deeprv_age_size/train.py
+                python: CPython 3.11.15
+                root: /ceph/volumes/homes_tstudent/wolf7754/a91786a3-1773-45ee-aaee-22b14a3491b7/dl4bi/SOAYSHEEP/transformer_train_results/AGE_SIZE/transformer_deeprv_age_size_1_512_2m_job_66312/wandb
+                slurm:
+                    cluster_name: srf_gpu_01
+                    conf: /etc/slurm/slurm.conf
+                    cpus_on_node: "4"
+                    cpus_per_task: "4"
+                    gpus_on_node: "1"
+                    gtids: "0"
+                    job_account: wolf7754
+                    job_cpus_per_node: "4"
+                    job_end_time: "1788253073"
+                    job_gid: "1974203980"
+                    job_gpus: "4"
+                    job_id: "66312"
+                    job_name: soay-as-deeprv-1-512
+                    job_nodelist: nagagpu02.cpu.stats.ox.ac.uk
+                    job_num_nodes: "1"
+                    job_partition: standard-gpu
+                    job_qos: normal
+                    job_start_time: "1787043473"
+                    job_uid: "11278"
+                    job_user: wolf7754
+                    jobid: "66312"
+                    localid: "0"
+                    mem_per_node: "65536"
+                    nnodes: "1"
+                    nodeid: "0"
+                    nodelist: nagagpu02.cpu.stats.ox.ac.uk
+                    prio_process: "0"
+                    procid: "0"
+                    script_context: prolog_task
+                    submit_dir: /ceph/volumes/homes_tstudent/wolf7754/a91786a3-1773-45ee-aaee-22b14a3491b7/dl4bi
+                    submit_host: slurm-hn04.stats.ox.ac.uk
+                    task_pid: "1959820"
+                    tasks_per_node: "1"
+                    topology_addr: nagagpu02.cpu.stats.ox.ac.uk
+                    topology_addr_pattern: node
+                    tres_per_task: cpu=4
+                startedAt: "2026-08-18T09:08:05.277575Z"
+                writerId: 0aphkq4cr7p1jklqzt5a819vepblxi26
+        m: []
+        python_version: 3.11.15
+        t:
+            "1":
+                - 5
+                - 12
+                - 45
+                - 50
+                - 53
+            "2":
+                - 5
+                - 12
+                - 45
+                - 50
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.11.15
+            "5": 0.28.1
+            "12": 0.28.1
+            "13": linux-x86_64
+sampling:
+    value:
+        active_location_distribution:
+            distribution: DiscreteUniform
+            maximum: 512
+            minimum: 1
+        age_distribution:
+            counts:
+                - 263
+                - 145
+                - 111
+                - 90
+                - 76
+                - 62
+                - 53
+                - 43
+                - 52
+            distribution: Empirical
+            probabilities:
+                - 0.293854748603352
+                - 0.16201117318435754
+                - 0.12402234636871508
+                - 0.1005586592178771
+                - 0.08491620111731843
+                - 0.06927374301675977
+                - 0.05921787709497207
+                - 0.048044692737430165
+                - 0.05810055865921788
+            values:
+                - 0
+                - 1
+                - 2
+                - 3
+                - 4
+                - 5
+                - 6
+                - 7
+                - 8
+        conditional_size_priors:
+            age_0:
+                distribution: Normal
+                mean: 2.6
+                sd: 0.2
+            age_1:
+                distribution: Normal
+                mean: 2.9
+                sd: 0.2
+            age_2:
+                distribution: Normal
+                mean: 3
+                sd: 0.2
+            age_3_plus:
+                distribution: Normal
+                mean: 3.15
+                sd: 0.2
+        coordinate_order:
+            - size
+            - age
+        jitter: 0.0005
+        kernel_variance: 1
+        lengthscale_priors:
+            age:
+                distribution: LogNormal
+                log_mean: 2
+                log_sd: 1.5
+            size:
+                distribution: LogNormal
+                log_mean: 0
+                log_sd: 1.5
+        location_ordering: sampled_order
+        padding: active_prefix_mask
+training:
+    value:
+        age_0_size_mean: 2.6
+        age_1_size_mean: 2.9
+        age_2_size_mean: 3
+        age_3_plus_size_mean: 3.15
+        age_lengthscale_log_mean: 2
+        batch_size: 8
+        checkpoint_interval: 100000
+        clip_norm: 3
+        data_path: /ceph/volumes/homes_tstudent/wolf7754/a91786a3-1773-45ee-aaee-22b14a3491b7/dl4bi/SOAYSHEEP/IBMs/Age_Size/gp_ibm_dataset_agesize.csv
+        dim: 128
+        jitter: 0.0005
+        learning_rate: 0.0001
+        lengthscale_log_sd: 1.5
+        max_locations: 512
+        min_locations: 1
+        num_blocks: 4
+        num_rff_features: 512
+        num_steps: 2000000
+        output_dir: /ceph/volumes/homes_tstudent/wolf7754/a91786a3-1773-45ee-aaee-22b14a3491b7/dl4bi/SOAYSHEEP/transformer_train_results/AGE_SIZE/transformer_deeprv_age_size_1_512_2m_job_66312
+        seed: 23
+        size_lengthscale_log_mean: 0
+        size_sd: 0.2
+        validation_interval: 400000
+        validation_steps: 10000
+        wandb_mode: online

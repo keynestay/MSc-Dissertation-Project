@@ -1,0 +1,18 @@
+{
+  "deeprv": {
+    "number_datasets": 50000,
+    "number_years": 4,
+    "initial_population_size": 250,
+    "max_locations": 1024,
+    "batch_size": 8
+  },
+  "gpflow": {
+    "number_datasets": 50000,
+    "number_years": 4,
+    "initial_population_size": 250,
+    "num_cpus": 48,
+    "tasks_per_batch": 25,
+    "max_locations_diagnostic": 1024,
+    "gp_sampling": "gpflow_tensorflow_cholesky_prior"
+  }
+}

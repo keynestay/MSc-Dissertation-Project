@@ -1,0 +1,48 @@
+{
+  "gp_sampling": "prior",
+  "conditioning": "unconditional",
+  "recruit_probability": 0.9013312458992004,
+  "female_probability": 0.5,
+  "size_quantile_boundaries": [
+    2.5991614273744585,
+    2.8061596162192592,
+    2.9621625451747744,
+    3.0964466703924525
+  ],
+  "selected_summary_statistics": {
+    "m_grw": [
+      "kl_next_size_distribution"
+    ],
+    "m_surv": [
+      "chi2_total_survivors_by_size"
+    ],
+    "m_repr": [
+      "chi2_total_breeders_by_size"
+    ],
+    "m_rcsz": [
+      "chi2_total_individuals_next_size"
+    ]
+  },
+  "summary_selection_methods": {
+    "m_grw": "fallback_best_median_auc",
+    "m_surv": "auc_threshold",
+    "m_repr": "auc_threshold",
+    "m_rcsz": "fallback_best_median_auc"
+  },
+  "abc_particles": [
+    50000,
+    10000,
+    5000,
+    1000,
+    250,
+    250
+  ],
+  "abc_quantiles": [
+    0.5,
+    0.4,
+    0.3,
+    0.2,
+    0.1,
+    0.1
+  ]
+}

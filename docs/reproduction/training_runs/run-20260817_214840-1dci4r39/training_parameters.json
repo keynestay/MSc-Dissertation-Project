@@ -1,0 +1,22 @@
+{
+  "batch_size": 8,
+  "checkpoint_interval": 100000,
+  "clip_norm": 3,
+  "dim": 128,
+  "jitter": 0.0005,
+  "learning_rate": 0.0001,
+  "lengthscale_mean": 2,
+  "lengthscale_variance": 4,
+  "max_locations": 1024,
+  "min_locations": 1,
+  "num_blocks": 4,
+  "num_rff_features": 512,
+  "num_steps": 2000000,
+  "output_dir": "/ceph/volumes/homes_tstudent/wolf7754/a91786a3-1773-45ee-aaee-22b14a3491b7/dl4bi/SOAYSHEEP/transformer_train_results/transformer_deeprv_1_1024_2m_job_66235",
+  "seed": 23,
+  "size_mean": 3,
+  "size_sd": 0.5,
+  "validation_interval": 400000,
+  "validation_steps": 10000,
+  "wandb_mode": "online"
+}

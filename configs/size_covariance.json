@@ -1,0 +1,15 @@
+{
+  "year": 1,
+  "parameter_draws_per_vital_rate": 5000,
+  "realization_counts": [
+    50,
+    100,
+    250,
+    500
+  ],
+  "nested_realizations": true,
+  "decoder_batch_size": 10,
+  "save_every": 25,
+  "seed": 20260908,
+  "jitter": 0.0005
+}

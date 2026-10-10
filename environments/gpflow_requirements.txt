@@ -1,0 +1,6 @@
+abc-gp-ipm==0.0.1
+gpflow==2.9.0
+tensorflow==2.16.2
+tensorflow-probability==0.24.0
+tf-keras==2.16.0
+numpy==1.26.4

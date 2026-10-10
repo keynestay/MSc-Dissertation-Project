@@ -1,0 +1,43 @@
+{
+  "exact_gp": {
+    "method": "exact_gp_cpu",
+    "number_parameters": 5000,
+    "number_replicates": 50,
+    "number_years": 10,
+    "number_summaries": 5,
+    "summary_names": [
+      "emd_breeder_next_size_distribution",
+      "chi2_total_survivors_by_size_age",
+      "chi2_total_breeders_by_size",
+      "chi2_total_recruits_by_age",
+      "bhattacharyya_nonbreeder_next_size_distribution"
+    ],
+    "num_cpus": 36,
+    "results_per_chunk": 100,
+    "jitter": 0.0005,
+    "two_dimensional_sampler": "numpy_ard_cholesky",
+    "one_dimensional_sampler": "numpy_rbf_cholesky"
+  },
+  "deeprv": {
+    "method": "deeprv_gpu_jax_ibm",
+    "max_locations": 512,
+    "number_parameters": 5000,
+    "number_replicates": 50,
+    "number_years": 10,
+    "number_summaries": 5,
+    "summary_names": [
+      "emd_breeder_next_size_distribution",
+      "chi2_total_survivors_by_size_age",
+      "chi2_total_breeders_by_size",
+      "chi2_total_recruits_by_age",
+      "bhattacharyya_nonbreeder_next_size_distribution"
+    ],
+    "results_per_chunk": 100,
+    "batch_size": 8,
+    "jitter": 0.0005,
+    "two_dimensional_sampler": "transformer_deeprv_batched",
+    "random_streams": "independent_method_specific"
+  },
+  "experiment_seed": 123,
+  "seed_provenance": "recorded benchmark_design.json"
+}

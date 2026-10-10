@@ -1,8 +1,0 @@
-d_model: 1280
-d_rank: 256
-num_blks: 1
-num_reps: 6
-num_heads: 20
-num_vocab: 50304
-num_context_window: 1024
-p_dropout: 0.0

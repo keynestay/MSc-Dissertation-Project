@@ -1,7 +1,0 @@
-_target_: dl4bi.sbi.npe.NPE
-estimator:
-  _target_: dl4bi.core.mlp.MLP
-  dims: [64, 64, 2]
-output_fn:
-  _target_: dl4bi.core.model_output.DiagonalMVNOutput.from_activations
-  _partial_: true

@@ -1,0 +1,83 @@
+{
+  "gp_sampling": "prior",
+  "conditioning": "unconditional",
+  "posterior_draws_per_vital_rate": 5000,
+  "vital_rate_order": [
+    "m_grw",
+    "m_surv",
+    "m_repr",
+    "m_recr",
+    "m_rcsz"
+  ],
+  "female_probability": 0.5,
+  "maximum_natural_age": 7,
+  "greybeard_age": 8,
+  "minimum_reproductive_age": 1,
+  "summary_selection_year": 10,
+  "summary_selection_population_size": 114,
+  "age_groups": {
+    "newborn": [
+      0
+    ],
+    "young": [
+      1,
+      4
+    ],
+    "middle_aged": [
+      5,
+      7
+    ],
+    "greybeard": [
+      8
+    ]
+  },
+  "size_quantile_boundaries": [
+    2.7163167646336315,
+    2.9589632557788117,
+    3.086727721810792,
+    3.17583489277498
+  ],
+  "summary_selection_repetitions": 300,
+  "summary_selection_optimum_percentage": 6,
+  "summary_selection_auc_threshold": 0.7,
+  "selected_summary_statistics": {
+    "m_grw": [
+      "emd_breeder_next_size_distribution"
+    ],
+    "m_surv": [
+      "chi2_total_survivors_by_size_age"
+    ],
+    "m_repr": [
+      "chi2_total_breeders_by_size"
+    ],
+    "m_recr": [
+      "chi2_total_recruits_by_age"
+    ],
+    "m_rcsz": [
+      "bhattacharyya_nonbreeder_next_size_distribution"
+    ]
+  },
+  "summary_selection_methods": {
+    "m_grw": "fallback_best_median_auc",
+    "m_surv": "auc_threshold",
+    "m_repr": "auc_threshold",
+    "m_recr": "auc_threshold",
+    "m_rcsz": "fallback_best_median_auc"
+  },
+  "abc_particles": [
+    50000,
+    10000,
+    5000,
+    1000,
+    250,
+    250
+  ],
+  "abc_quantiles": [
+    0.5,
+    0.4,
+    0.3,
+    0.2,
+    0.1,
+    0.1
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "years": [
+    2
+  ],
+  "parameter_draws_per_vital_rate": 5000,
+  "realizations": 500,
+  "decoder_batch_size": 50,
+  "save_every": 25,
+  "seed": 20260909,
+  "jitter": 0.0005000000237487257,
+  "historical_run_73379_pooled_years": [
+    2,
+    3,
+    4
+  ],
+  "note": "Regeneration follows the author-confirmed year 2. The available historical record pooled years 2\u20134 and is not evidence of a year-2-only run."
+}

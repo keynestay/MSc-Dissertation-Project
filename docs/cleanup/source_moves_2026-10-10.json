@@ -1,0 +1,642 @@
+[
+  {
+    "original": "dl4bi/.gitignore",
+    "current": ".gitignore",
+    "original_sha256": "d636ba7b579a4ac9692ef4fea6c1a6702f4b908fec1b15c6184177525f137529"
+  },
+  {
+    "original": "dl4bi/.pre-commit-config.yaml",
+    "current": ".pre-commit-config.yaml",
+    "original_sha256": "ad52e63f84bd5436003ecb22729b8ce4c9ec03af22db4335ad41753d142c87bb"
+  },
+  {
+    "original": "dl4bi/README.md",
+    "current": "README.md",
+    "original_sha256": "56b6d4d39cee20ff62b8daa98b717d1c95f844f78bb62a090b63c97de991e77b"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/ABC_Age_Size/ Calibrating Priors/Calibrating_Priors.ipynb",
+    "current": "experiments/soay/age_size/training/Calibrating_Priors.ipynb",
+    "original_sha256": "f5cc6a0bee7077782b15094611274d0a9c8c7ea7149e5661041eb08eb068d372"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/ABC_Age_Size/__init__.py",
+    "current": "experiments/soay/age_size/abc/gp/__init__.py",
+    "original_sha256": "94ed917343fc0498281f8eebe26ad5f4b26967331494f365a2e171a7dcfe8ee5"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/ABC_Age_Size/run_soay_abc_hpc_agesize.py",
+    "current": "experiments/soay/age_size/abc/gp/run_soay_abc_hpc_agesize.py",
+    "original_sha256": "6d7d038e5b20610e4068622698abaa53c3bbe5a8d519a92eeb1e88c6de6d5e1f"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/ABC_Age_Size/soay_abc_model_agesize.py",
+    "current": "experiments/soay/age_size/abc/gp/soay_abc_model_agesize.py",
+    "original_sha256": "fdf1592af131bac2c466f060aa7587332ea1e1dbcae96dbfaf67719839441f10"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/ABC_Age_Size/tracked_abc_gp_ipm_agesize.py",
+    "current": "experiments/soay/age_size/abc/gp/tracked_abc_gp_ipm_agesize.py",
+    "original_sha256": "e877e8dca58b32f12f9530f0aa20a587fe8f366ff806a47da59950e78af69391"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/ABC_Age_Size_DeepRV/__init__.py",
+    "current": "experiments/soay/age_size/abc/deeprv/__init__.py",
+    "original_sha256": "671aa1edb22dd08ee4ed0108bc3628afe0eff80c4d8c5d965854f41b5fe3394c"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/ABC_Age_Size_DeepRV/deeprv_decoder_agesize.py",
+    "current": "experiments/soay/age_size/abc/deeprv/deeprv_decoder_agesize.py",
+    "original_sha256": "92943914a4a0a7d5dc671f0e090e37bba1f738d6dfb35d25f917d43c91080707"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/ABC_Age_Size_DeepRV/run_soay_abc_hpc_deeprv_agesize.py",
+    "current": "experiments/soay/age_size/abc/deeprv/run_soay_abc_hpc_deeprv_agesize.py",
+    "original_sha256": "cf408906b510a9f0469e0fbc9a81dbe56d0a2d3afcc8497ebf196408c19bbda5"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/ABC_Age_Size_DeepRV/soay_abc_model_deeprv_agesize.py",
+    "current": "experiments/soay/age_size/abc/deeprv/soay_abc_model_deeprv_agesize.py",
+    "original_sha256": "dbfbebd6619665e58e11d023244ba8b6475ba1c87b63c2fbdc68bf3d57949c6d"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/ABC_rejection_tracking/__init__.py",
+    "current": "experiments/soay/size_only/abc/tracked/__init__.py",
+    "original_sha256": "7ef85d88987d611f303bb75b42ffe751de60986d7b30df174dd5bb025e459c35"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/ABC_rejection_tracking/run_soay_abc_hpc.py",
+    "current": "experiments/soay/size_only/abc/tracked/run_soay_abc_hpc.py",
+    "original_sha256": "762c6be33f076375d3ea5c330ad8c0d0c883fbd8cc7d4a40c48ae0e83199564e"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/ABC_rejection_tracking/run_soay_abc_hpc_deeprv.py",
+    "current": "experiments/soay/size_only/abc/tracked/run_soay_abc_hpc_deeprv.py",
+    "original_sha256": "3b95eaf205ca3b67c0dcd89919c7f4f2f1a870aad183a9ead680dd7cf06015ad"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/ABC_rejection_tracking/soay_abc_model.py",
+    "current": "experiments/soay/size_only/abc/tracked/soay_abc_model.py",
+    "original_sha256": "caad3ce884ccc5dd6d8f344d815199bbfbfa2ba90f011b02602d68aa43813e65"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/ABC_rejection_tracking/soay_abc_model_deeprv.py",
+    "current": "experiments/soay/size_only/abc/tracked/soay_abc_model_deeprv.py",
+    "original_sha256": "aac6bd47a5c5b02e2341ddd467a58716052fd41620b99f9e157543271c35bbc3"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/ABC_rejection_tracking/tracked_abc_gp_ipm.py",
+    "current": "experiments/soay/size_only/abc/tracked/tracked_abc_gp_ipm.py",
+    "original_sha256": "0aaa6b1520def1c84b60a41fab6346cd3356fecf11fdf460dc6916b7de3359ed"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/Baseline/Age_Size/Baseline_IBM_agesize.ipynb",
+    "current": "experiments/soay/age_size/data_generation/Baseline_IBM_agesize.ipynb",
+    "original_sha256": "0ea49200f77955f5c43263a7a36f085b8de6841d95dbced02d85f96ec96702f9"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/Baseline/Baseline_IBM SOAYSHEEP.ipynb",
+    "current": "experiments/soay/size_only/data_generation/Baseline_IBM_SOAYSHEEP.ipynb",
+    "original_sha256": "b3f87a9af43af99d450828130624857ccd7adfdabddff959abf8ac0cf09a3b1b"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/DeepRV_Evaluation/benchmark_5k_r50_transformer_1_1024/DeepRV_eval_analysis.ipynb",
+    "current": "experiments/soay/size_only/validation/reduced_abc/DeepRV_eval_analysis.ipynb",
+    "original_sha256": "47aedba1e941f2703f5169c4676904da71b1333bfd564bbc6ecef1c3076760a1"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/DeepRV_Evaluation/benchmark_5k_r50_transformer_1_1024/Offline_ABC_IPM_Point_Estimates.ipynb",
+    "current": "experiments/soay/size_only/validation/reduced_abc/Offline_ABC_IPM_Point_Estimates.ipynb",
+    "original_sha256": "b268f4aafa204973757054023151e38dfd47a5022ccf0d2b9cefb47675ce2483"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/DeepRV_Evaluation/benchmark_age_size_5k_r50_transformer_1_512/Age_Size_DeepRV_Validation_Analysis.ipynb",
+    "current": "experiments/soay/age_size/validation/reduced_abc/Age_Size_DeepRV_Validation_Analysis.ipynb",
+    "original_sha256": "3cbc9a6c763d82d03c3c6c664d5db2c8565572191e1b00c95e0eac7111d2a4c8"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/DeepRV_Evaluation/benchmark_age_size_5k_r50_transformer_1_512/Offline_ABC_IPM_Point_Estimates.ipynb",
+    "current": "experiments/soay/age_size/validation/reduced_abc/Offline_ABC_IPM_Point_Estimates.ipynb",
+    "original_sha256": "4c53e0f465735f5d5625cb897622069b0141df01a678b72ef1f215f0b708ed49"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/DeepRV_Evaluation/plot_scaling_curve.ipynb",
+    "current": "experiments/soay/size_only/benchmarks/plot_scaling_curve.ipynb",
+    "original_sha256": "885b4b1d661e2c8f6fd93d05329fc56f4c2ed48a6cd64e4dd80a5f4505eed9ad"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/Draw_RBF_samples.ipynb",
+    "current": "experiments/background/Draw_RBF_samples.ipynb",
+    "original_sha256": "86bc12c327db6034a897886069eeb0d036cf9679c290f20b0ae01791deb1cfa8"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/IBMs/Age_Size/GP_IBM_agesize.ipynb",
+    "current": "experiments/soay/age_size/data_generation/GP_IBM_agesize.ipynb",
+    "original_sha256": "09b22e84472dad810839b9b408ff7010d6f059f1f67a92a2e8b4e7cfd15448f0"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/IBMs/GP_IBM_final.ipynb",
+    "current": "experiments/soay/size_only/data_generation/GP_IBM_final.ipynb",
+    "original_sha256": "9bcc63740fbbdc15e7c8e18a1e6c6f04339c0f3ef6c962aea8d8c3f5f87dee89"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/Inference/1_dim_transformer_choosing_priors.ipynb",
+    "current": "experiments/soay/size_only/training/1_dim_transformer_choosing_priors.ipynb",
+    "original_sha256": "fe6405feedfa193e83f99bc8b9d50b36178913db11740b35790b5ae518fa2ea6"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/Inference/Age_Size/GP_df_inference_agesize.ipynb",
+    "current": "experiments/soay/age_size/inference/GP_df_inference_agesize.ipynb",
+    "original_sha256": "0e42e10e8c958b331772f5662bb1fb2d9e77eef1decaa5e0d655441437399824"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/Inference/Age_Size/Make_IPM_agesize.ipynb",
+    "current": "experiments/soay/age_size/abc/Make_IPM_agesize.ipynb",
+    "original_sha256": "f5fb24a9168e6b7e63f75aef9be41915112e51f2719ac293380d25b36b628447"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/Inference/GP_df_inference.ipynb",
+    "current": "experiments/soay/size_only/inference/GP_df_inference.ipynb",
+    "original_sha256": "0533e68b8f8035e44d6db876c15ae126eb6d43dd9dfcf00b11586d322e12a33e"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/Inference/Make_IPM_deeprv.ipynb",
+    "current": "experiments/soay/size_only/abc/Make_IPM_deeprv.ipynb",
+    "original_sha256": "3ea42a833937cb67e703de6c87501cd9e72a759c7be42c5cb15bfad6fe0e8c65"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/Inference/gpdf_deeprv_MCMC_inference/deeprv_MCMC_inference.ipynb",
+    "current": "experiments/gmlp_mcmc/deeprv_MCMC_inference.ipynb",
+    "original_sha256": "eb0a38024d8781bca2ed0ac72f5ce81e1ae0505a05040c03425f8dfd46792442"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/Inference/run_gp_df_inference.py",
+    "current": "experiments/soay/size_only/inference/run_gp_df_inference.py",
+    "original_sha256": "777775fc09e0b1506dac5a49e983a45dc21bece536f6450a3b07355781915f59"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/Inference/run_gp_df_inference_cholgpu.sh",
+    "current": "experiments/soay/size_only/inference/run_gp_df_inference_cholgpu.sh",
+    "original_sha256": "7133e56204a2626f858c08fe7a7a7cc92d381edf957ad9451965424be61d1e2a"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/Train_gMLP_DeepRV_Soay_760.ipynb",
+    "current": "experiments/gmlp_mcmc/Train_gMLP_DeepRV_Soay_760.ipynb",
+    "original_sha256": "eb8889e988b4bc429d132fa609c9a6ac830b89a477304a6eb8b67aed1b291df6"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_decoder.py",
+    "current": "experiments/soay/size_only/training/deeprv_decoder.py",
+    "original_sha256": "1460e296628f30d5a7a9a7df16ef7db3dde305186969f0d3af481a26a6be9002"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_gp_validation/__init__.py",
+    "current": "experiments/soay/size_only/validation/ibm/__init__.py",
+    "original_sha256": "d696528b3a864639089b67f6596723ebd0ba8c4291d9aa15f30174fe15046402"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_gp_validation/compare_results.py",
+    "current": "experiments/soay/size_only/validation/ibm/compare_results.py",
+    "original_sha256": "9b6c807f335c4ca7aae2c7b83fa95749a65ef65cb3069c37017d402e9f81178d"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_gp_validation/comparison_common.py",
+    "current": "experiments/soay/size_only/validation/ibm/comparison_common.py",
+    "original_sha256": "73a04f7cf32f8db0bc0fc305a3860b57d8bdf6083d1b385170f6ca112991dd18"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_gp_validation/make_design.py",
+    "current": "experiments/soay/size_only/validation/ibm/make_design.py",
+    "original_sha256": "62d71dbbce0ff107e52ce4e80865e4d280134d0db281669fb7f879eace586917"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_gp_validation/run_deeprv_gpu.py",
+    "current": "experiments/soay/size_only/validation/ibm/run_deeprv_gpu.py",
+    "original_sha256": "f7b67cde9b27d37bc7b3dd512538c5f47e92a1a99a3813e248ae372a2e7d5d11"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_gp_validation/run_exact_gp_cpu.py",
+    "current": "experiments/soay/size_only/validation/ibm/run_exact_gp_cpu.py",
+    "original_sha256": "f47f7de2b3ce4e1442a9de59905498d70dcdde78ffe96e24e295c0793d039a50"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_gp_validation_age_size/__init__.py",
+    "current": "experiments/soay/age_size/validation/ibm/__init__.py",
+    "original_sha256": "17c7b20b1d73e6c8d6fbe621efb4d6f5186bdd86962b512ac932dac293b4ac22"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_gp_validation_age_size/comparison_common.py",
+    "current": "experiments/soay/age_size/validation/ibm/comparison_common.py",
+    "original_sha256": "33eed294cb5832bef1236639c405a1bf9c62bbcba66a706c5c6b48c6526054b2"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_gp_validation_age_size/deeprv_ibm_jax.py",
+    "current": "experiments/soay/age_size/validation/ibm/deeprv_ibm_jax.py",
+    "original_sha256": "b589f963f7661b1fca08cdf29411dd29ea0521301e51b52d105d056ad8ae49c9"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_gp_validation_age_size/make_design.py",
+    "current": "experiments/soay/age_size/validation/ibm/make_design.py",
+    "original_sha256": "eeb90db291e577fcd6d6bfa797c817570c11e34d85f753af93e233bc75d6e131"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_gp_validation_age_size/run_deeprv_gpu.py",
+    "current": "experiments/soay/age_size/validation/ibm/run_deeprv_gpu.py",
+    "original_sha256": "60e1174b834b14678299afdaa7cc966ac8e08ab58ad39a24ad2d3349173c1255"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_gp_validation_age_size/run_exact_gp_cpu.py",
+    "current": "experiments/soay/age_size/validation/ibm/run_exact_gp_cpu.py",
+    "original_sha256": "5677b0e6eda3632ed0567da2f2598379098a963edbd1bd1ce4a409c9d1189f79"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_speed_benchmark/__init__.py",
+    "current": "experiments/soay/size_only/benchmarks/__init__.py",
+    "original_sha256": "9c60be7dd8963355cd143526750eb2c5fb24577e61bce82713475360a0a48c33"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_speed_benchmark/benchmark_common.py",
+    "current": "experiments/soay/size_only/benchmarks/benchmark_common.py",
+    "original_sha256": "57e57b5f10e1328208e5452f1374a0d88c3df045b2707905a62d500682f307c1"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_speed_benchmark/compare_scaling.py",
+    "current": "experiments/soay/size_only/benchmarks/compare_scaling.py",
+    "original_sha256": "5d49bf415ec9e8d52900164d0bbd13a63d4deada979eb956da024b3cbcbbb476"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_speed_benchmark/compare_timings.py",
+    "current": "experiments/soay/size_only/benchmarks/compare_timings.py",
+    "original_sha256": "793e62fea2dc942634891ae7bcd4e5a89b82cc27b24af7612e15c0336404d2ed"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_speed_benchmark/deeprv_ibm_jax.py",
+    "current": "experiments/soay/size_only/benchmarks/deeprv_ibm_jax.py",
+    "original_sha256": "5b1abafe51e5f7b13fc20ebb3be481c4003ab4a8514e24da2a7eb6cb1e156dcd"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_speed_benchmark/make_design.py",
+    "current": "experiments/soay/size_only/benchmarks/make_design.py",
+    "original_sha256": "ab756a0e788b1561da100e796c62ca98a5b8f1e95af0348f04aac375023c5f84"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_speed_benchmark/run_deeprv_gpu.py",
+    "current": "experiments/soay/size_only/benchmarks/run_deeprv_gpu.py",
+    "original_sha256": "ef64ffba2c5573d5a277de7fed0173d85390c48fe06b4d7753471008876e5cda"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_speed_benchmark/run_gpflow_cpu.py",
+    "current": "experiments/soay/size_only/benchmarks/run_gpflow_cpu.py",
+    "original_sha256": "0f011202f92c6df8f512e1932902136889cc70d838ca8b1f361ae8d04e301da9"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_speed_benchmark_age_size/__init__.py",
+    "current": "experiments/soay/age_size/benchmarks/__init__.py",
+    "original_sha256": "cd032395433cb4ddb9fbd921af032851c20f150031db5217a32d8651830bba91"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_speed_benchmark_age_size/benchmark_common.py",
+    "current": "experiments/soay/age_size/benchmarks/benchmark_common.py",
+    "original_sha256": "b64d7f3c03209119e622203e80cbd37538625f01f896157c45be431623883099"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_speed_benchmark_age_size/compare_timings.py",
+    "current": "experiments/soay/age_size/benchmarks/compare_timings.py",
+    "original_sha256": "d2a95833f85cc5509fb2b9e22a79338dfe6188a13aceb9279f1e10eea36c45b0"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_speed_benchmark_age_size/deeprv_ibm_jax.py",
+    "current": "experiments/soay/age_size/benchmarks/deeprv_ibm_jax.py",
+    "original_sha256": "e6445d81ac2963abc1153472f575524d98d7e811c1de61edfc9146b6d63dbf13"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_speed_benchmark_age_size/make_design.py",
+    "current": "experiments/soay/age_size/benchmarks/make_design.py",
+    "original_sha256": "ff1d82ea75a537cbdaaba258b25a29c18e319893ccc55391d98f561808ddb155"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_speed_benchmark_age_size/run_deeprv_gpu.py",
+    "current": "experiments/soay/age_size/benchmarks/run_deeprv_gpu.py",
+    "original_sha256": "24c20d66ba09f46a340b8571c19e85ae090946975ca4a7e200474e40e8ac2334"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/deeprv_speed_benchmark_age_size/run_gpflow_cpu.py",
+    "current": "experiments/soay/age_size/benchmarks/run_gpflow_cpu.py",
+    "original_sha256": "932ba523ae4086edbd0759215429d68b94c335bf392f49c342c4c3bab2001447"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/ipm_utils.py",
+    "current": "experiments/soay/common/ipm_utils.py",
+    "original_sha256": "075cc05057fb33bb2fa835bc5b287723a60b10d1530cd548c6d87912f4d05611"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/soay_abc_model.py",
+    "current": "experiments/soay/size_only/abc/soay_abc_model.py",
+    "original_sha256": "c25ddbcdb869dec7244ee1594a5d7fc5dddad14dcc6afdde215cb211bdba305c"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/soay_abc_model_deeprv.py",
+    "current": "experiments/soay/size_only/abc/soay_abc_model_deeprv.py",
+    "original_sha256": "afc42f9109fc7aa6c8065344552001b463dfad3530616db0f20ace86871810dc"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/soay_transformer_1_1024_priors_2m_job_66235/evaluate_transformer_1_1024.ipynb",
+    "current": "experiments/soay/size_only/validation/gp_accuracy/evaluate_transformer_1_1024.ipynb",
+    "original_sha256": "87d6c3619a48ed0a440b430382d5d1c12f2b14e3237339b0fd1e323742f72263"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/train_gmlp_deeprv_soay_760.py",
+    "current": "experiments/gmlp_mcmc/train_gmlp_deeprv_soay_760.py",
+    "original_sha256": "a210e233712179a8d236c6fa1c168a461cdeb6d9b2627fa9fa4ee3b17d4a6e04"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/train_transformer_deeprv.py",
+    "current": "experiments/soay/size_only/training/train_transformer_deeprv.py",
+    "original_sha256": "465b60606e7a715f2a438f988520660edd666dfa70630c64c5e78dee2bc08b36"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_deeprv_age_size/Train_Transformer_DeepRV_Age_Size.ipynb",
+    "current": "experiments/soay/age_size/training/Train_Transformer_DeepRV_Age_Size.ipynb",
+    "original_sha256": "adedd70961d2e66ef5be261caab6cb63c114badcb3aa36c5d4c4d434c2b70126"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_deeprv_age_size/__init__.py",
+    "current": "experiments/soay/age_size/training/__init__.py",
+    "original_sha256": "26aac429a3ddb975e92d56b48554c0f309c6979876611b49e7b8698c507eb89e"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_deeprv_age_size/train.py",
+    "current": "experiments/soay/age_size/training/train.py",
+    "original_sha256": "7d71f02aa55e315a9c9139c7dd7266acc89826db004194817ec0d179eb82b2dd"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_deeprv_age_size_1_512_2m_job_66312/evaluate_agesize_transformer.ipynb",
+    "current": "experiments/soay/age_size/validation/gp_accuracy/evaluate_agesize_transformer.ipynb",
+    "original_sha256": "9c92e2c79f406be3c7897b3bcaf77a04d70ae5a261073f3c2e33ba7fa6eedc09"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_dowson_landau_evaluation/evaluate_dowson_landau_draw_counts_results.ipynb",
+    "current": "experiments/soay/size_only/validation/covariance/evaluate_dowson_landau_draw_counts_results.ipynb",
+    "original_sha256": "f580d211f6f3335f58201f8180d6d13fc5a7c2e4e921040f0aef914809281da5"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_dowson_landau_evaluation/evaluate_transformer_dowson_landau.py",
+    "current": "experiments/soay/size_only/validation/covariance/evaluate_transformer_dowson_landau.py",
+    "original_sha256": "00501dc0b7436ce60fba553603f117233e11e85f8d9155d9c182cb193353b351"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_dowson_landau_evaluation/evaluate_transformer_dowson_landau_draw_counts.py",
+    "current": "experiments/soay/size_only/validation/covariance/evaluate_transformer_dowson_landau_draw_counts.py",
+    "original_sha256": "01b7434e5b39b28a9624fd4861c7f89555f2218b7201c26814052d2fc6e54f63"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_dowson_landau_evaluation/run_transformer_dowson_landau_draw_counts.sh",
+    "current": "experiments/soay/size_only/validation/covariance/run_transformer_dowson_landau_draw_counts.sh",
+    "original_sha256": "f484f0ef57bfe8c2c93f5d936e20a9b6fd1f65d172d39d31c74fd0e4d337f6fc"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_dowson_landau_evaluation_age_size/evaluate_dowson_landau_age_size_results.ipynb",
+    "current": "experiments/soay/age_size/validation/covariance/evaluate_dowson_landau_age_size_results.ipynb",
+    "original_sha256": "7c781499fd127ba1687c7d341ff77426ba7ae678e45ce61f4be89b0a697ad0e1"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_dowson_landau_evaluation_age_size/evaluate_transformer_dowson_landau_age_size.py",
+    "current": "experiments/soay/age_size/validation/covariance/evaluate_transformer_dowson_landau_age_size.py",
+    "original_sha256": "e53edabe5830ca396470ef6c94967c34fb4e758d3d28d4fe7e62784c1a2638c3"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_dowson_landau_evaluation_age_size/run_transformer_dowson_landau_age_size.sh",
+    "current": "experiments/soay/age_size/validation/covariance/run_transformer_dowson_landau_age_size.sh",
+    "original_sha256": "76adca46bb70f5f991fbbf01d1c2b3aa9d11b9d4c3c9b529f676ac1d84672df0"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_ks_evaluation/evaluate_transformer_ks.ipynb",
+    "current": "experiments/soay/size_only/validation/ks/evaluate_transformer_ks.ipynb",
+    "original_sha256": "1eb2a4a644ecfdaded32cd7bb2322a4f91f185212f502d3b5d73bc2d108756c8"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_ks_evaluation/evaluate_transformer_ks.py",
+    "current": "experiments/soay/size_only/validation/ks/evaluate_transformer_ks.py",
+    "original_sha256": "74c3293f5bf9cd8914caed53c5bdaacb7b7a15e22363970c24906e224bcdb7cd"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_ks_evaluation/evaluate_transformer_smooth_ks.py",
+    "current": "experiments/soay/size_only/validation/ks/evaluate_transformer_smooth_ks.py",
+    "original_sha256": "eaa14ebfe97032b079368d05bec57479f1caaca8569e3fd9d57e48ff7694be95"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_ks_evaluation/run_transformer_ks.sh",
+    "current": "experiments/soay/size_only/validation/ks/run_transformer_ks.sh",
+    "original_sha256": "5d9716e0c8f4408fa610a9253fb6bf2ba49020d9ef9914468e521c63035c4db9"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_ks_evaluation/run_transformer_smooth_ks.sh",
+    "current": "experiments/soay/size_only/validation/ks/run_transformer_smooth_ks.sh",
+    "original_sha256": "312322ce391db078eb86c558841250f28e74a81b641deecaa8da204dd17d36ae"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_ks_evaluation_age_size/evaluate_transformer_ks_age_size.ipynb",
+    "current": "experiments/soay/age_size/validation/ks/evaluate_transformer_ks_age_size.ipynb",
+    "original_sha256": "67aef9d73c2d278afc0684f7ea209600b79d5b3a333c999b98fb83eaf67cd699"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_ks_evaluation_age_size/evaluate_transformer_smooth_ks_age_size.py",
+    "current": "experiments/soay/age_size/validation/ks/evaluate_transformer_smooth_ks_age_size.py",
+    "original_sha256": "1c37680ef99e1717382f0c10ec19bbb0f8e97645d1d1c0e9b7abb9c2d49c655a"
+  },
+  {
+    "original": "dl4bi/SOAYSHEEP/transformer_ks_evaluation_age_size/run_transformer_smooth_ks_age_size.sh",
+    "current": "experiments/soay/age_size/validation/ks/run_transformer_smooth_ks_age_size.sh",
+    "original_sha256": "b899f7ffd04ea49928141705d96f537ecc306cb77ebad4462ed7bf2defbdb6bd"
+  },
+  {
+    "original": "dl4bi/dl4bi/DEEPRV_ABC_TEST/README.md",
+    "current": "experiments/bernoulli_abc/README.md",
+    "original_sha256": "245f9e15593cf7ab6c52421a889ec77c70e30faa5817e7133d0728ac44f066cd"
+  },
+  {
+    "original": "dl4bi/dl4bi/DEEPRV_ABC_TEST/__init__.py",
+    "current": "experiments/bernoulli_abc/__init__.py",
+    "original_sha256": "8fdd0116ae5328e5eabe431010525430825d49c77d5924da589926645020f35f"
+  },
+  {
+    "original": "dl4bi/dl4bi/DEEPRV_ABC_TEST/bernoulli_lengthscale_abc.py",
+    "current": "experiments/bernoulli_abc/bernoulli_lengthscale_abc.py",
+    "original_sha256": "e934964276345b577133a4b04042231f63dec5bb70a8f9308477a99eaa0474f3"
+  },
+  {
+    "original": "dl4bi/dl4bi/DEEPRV_ABC_TEST/visualize_abc_results.ipynb",
+    "current": "experiments/bernoulli_abc/visualize_abc_results.ipynb",
+    "original_sha256": "7959091d4aaa586cf0add338c2a587d9195bf0d749eef903754117723155ba07"
+  },
+  {
+    "original": "dl4bi/dl4bi/__init__.py",
+    "current": "dl4bi/__init__.py",
+    "original_sha256": "f75dc8a1765b269f991e22f0b374dae2df0a5fecf8971f3c0a2c5fb16cc16a7f"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/__init__.py",
+    "current": "dl4bi/core/__init__.py",
+    "original_sha256": "ce119ddd6a58eb298bf3af53d65b3561733f0546c1b3830c74f92f71adb04d41"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/attention.py",
+    "current": "dl4bi/core/attention.py",
+    "original_sha256": "0049335dc85e36e7aeb631102154e1fd077588d21667cebb31f4cd935ba770d1"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/bias.py",
+    "current": "dl4bi/core/bias.py",
+    "original_sha256": "4ce1e0f43205928586833bb6a31f5f67b66e8150c02a67ffb349652404a0e0b4"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/conv.py",
+    "current": "dl4bi/core/conv.py",
+    "original_sha256": "c5df623cb7385763f645911d19135cffbac2e64a3951654e1fd90309399ee967"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/data.py",
+    "current": "dl4bi/core/data.py",
+    "original_sha256": "fd44e0596e2dca624694afc94b46e60fbbfa3a0e71258c7378e88d5bae87c5ad"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/embed.py",
+    "current": "dl4bi/core/embed.py",
+    "original_sha256": "f451a9a280e0b63b2adef7abbbeeafbfd5c2125a6f71c8b1ae5aba39e996b92c"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/gnn.py",
+    "current": "dl4bi/core/gnn.py",
+    "original_sha256": "bead0f0810fb4edff748ea00c7cc1821b4d09a2e34d3e90868d9852b12d0883b"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/hyper.py",
+    "current": "dl4bi/core/hyper.py",
+    "original_sha256": "466d6bcd52f6001af31855e2a5dcc250c96e1bf63bff7712e83e9dce9f9ff06b"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/metrics.py",
+    "current": "dl4bi/core/metrics.py",
+    "original_sha256": "f4a68c9595126956bcf87c05e4781718d4df3c2aa6441c85ee9f92bde3101c1a"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/mle.py",
+    "current": "dl4bi/core/mle.py",
+    "original_sha256": "0b557a92128d93c126307a002b05195f745baa1e794663cd4f553755068a327c"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/mlp.py",
+    "current": "dl4bi/core/mlp.py",
+    "original_sha256": "4498d33a8fcf6a7410de81bc1dd98516d1186162691b1e5f9215167c4f70c510"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/model_output.py",
+    "current": "dl4bi/core/model_output.py",
+    "original_sha256": "ffdaf9e2e5c6b2a91d79349409cd0e6c5782947c0bb0e9cd0c79a4f7a94041cb"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/preprocess.py",
+    "current": "dl4bi/core/preprocess.py",
+    "original_sha256": "ce2c5c56432f9376850a323d1f4126bafc95b3ce3443f6e3dff8e075f6f5266b"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/sim.py",
+    "current": "dl4bi/core/sim.py",
+    "original_sha256": "ffb605f8b97f7fde51e0ffc18db9a2e4c06698eeae9fb28e6259f2ad43a6daf0"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/train.py",
+    "current": "dl4bi/core/train.py",
+    "original_sha256": "20f88635080b2a078da9ee05a27a9d82d700da6af5c706a51dcd0c7ed13e6eb3"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/transformer.py",
+    "current": "dl4bi/core/transformer.py",
+    "original_sha256": "c6d8e07539b07e0ae6aa7187fedf873de8e53c315ba128f2869f17d2f6d75cb1"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/utils.py",
+    "current": "dl4bi/core/utils.py",
+    "original_sha256": "452cde615b3d285facbcc2ca7fa3540c5a3b87ddd9cffa8d3dc13c99aced0e2b"
+  },
+  {
+    "original": "dl4bi/dl4bi/core/vit.py",
+    "current": "dl4bi/core/vit.py",
+    "original_sha256": "7a3233407c16ffb964116e227da9c50ffc75d1faed4c5c94cdf8a86c607875bb"
+  },
+  {
+    "original": "dl4bi/dl4bi/vae/__init__.py",
+    "current": "dl4bi/vae/__init__.py",
+    "original_sha256": "99d3845b0c9389b00ceb591372f0056391df396d1f11998379cd7b448fe9e0d9"
+  },
+  {
+    "original": "dl4bi/dl4bi/vae/deep_rv.py",
+    "current": "dl4bi/vae/deep_rv.py",
+    "original_sha256": "a0e24e6eb893ba8592f23f208542bd8762f14612882779716c96b6008a99f227"
+  },
+  {
+    "original": "dl4bi/dl4bi/vae/pi_vae.py",
+    "current": "dl4bi/vae/pi_vae.py",
+    "original_sha256": "85b42288e21b01b5a5c5afd29f434428ebaa177c8699fecefc70c42df20d8891"
+  },
+  {
+    "original": "dl4bi/dl4bi/vae/prior_cvae.py",
+    "current": "dl4bi/vae/prior_cvae.py",
+    "original_sha256": "cadcf31bde900332c091ba2d6ce2bc709fd87db9889d3e768561610d2cabe34f"
+  },
+  {
+    "original": "dl4bi/dl4bi/vae/sp_vae.py",
+    "current": "dl4bi/vae/sp_vae.py",
+    "original_sha256": "65fdb8d2edee5d9d3f98f4e938d0ff8f17f1f091d782c0569c8e03127ce84e36"
+  },
+  {
+    "original": "dl4bi/dl4bi/vae/train_utils.py",
+    "current": "dl4bi/vae/train_utils.py",
+    "original_sha256": "9ec73259763a313e958a22f0f91dd8468cfdc7af11ff380ac5518235c1a71a4f"
+  },
+  {
+    "original": "dl4bi/pyproject.toml",
+    "current": "pyproject.toml",
+    "original_sha256": "346ea24e4dd2f80ccacc908c482aefaec0e4bee99ad5ff067c0967d1345b9709"
+  },
+  {
+    "original": "dl4bi/tests/test_attention.py",
+    "current": "tests/test_attention.py",
+    "original_sha256": "9d558c6151de9a188a80705ae6fc16ec13b6537d5a2bec41acaa7c34593a9f5d"
+  },
+  {
+    "original": "dl4bi/tests/test_bernoulli_lengthscale_abc.py",
+    "current": "tests/test_bernoulli_lengthscale_abc.py",
+    "original_sha256": "440a684fc73bd0bc9dac540fe37da678ac3e124caf88f8666fa5453a2218e7f5"
+  },
+  {
+    "original": "dl4bi/tests/test_embed.py",
+    "current": "tests/test_embed.py",
+    "original_sha256": "8a47746251795d787d58f10e8e6348b50755032771e849338f29bac50e2c2e75"
+  },
+  {
+    "original": "dl4bi/tests/test_hyper.py",
+    "current": "tests/test_hyper.py",
+    "original_sha256": "d5ad517af63835768b16327f10f86948239407d749258b8c0cf54608cec2a788"
+  },
+  {
+    "original": "dl4bi/tests/test_mle.py",
+    "current": "tests/test_mle.py",
+    "original_sha256": "221d2a39e8bcdf1fadf1f1f57c5af7e6152e8636489fd729e2f56477e0e3ed7f"
+  },
+  {
+    "original": "dl4bi/tests/test_mlp.py",
+    "current": "tests/test_mlp.py",
+    "original_sha256": "3bd8771cdd43ff8f461137a02dee9f5d691861a31192cdd9bd4d6678bfde9c30"
+  },
+  {
+    "original": "dl4bi/tests/test_preprocess.py",
+    "current": "tests/test_preprocess.py",
+    "original_sha256": "ad86a77dafa1fb050a7a54f8ebe8d2b3aa73b1ded6ce2a171302fb02f22c8737"
+  },
+  {
+    "original": "dl4bi/tests/test_transformer.py",
+    "current": "tests/test_transformer.py",
+    "original_sha256": "6bbadc48a2409c3437491b62f07d73eb7bb0e3cd5bfb9d98e8e2dbf8aca1e32a"
+  }
+]

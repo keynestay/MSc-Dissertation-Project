@@ -1,0 +1,25 @@
+{
+  "exact_gp": {
+    "method": "exact_gp",
+    "number_parameters": 5000,
+    "number_replicates": 50,
+    "number_years": 4,
+    "number_summaries": 16,
+    "num_cpus": 44,
+    "target_simulations_per_chunk": 100,
+    "jitter": 0.0005,
+    "sampler": "numpy_cholesky"
+  },
+  "deeprv": {
+    "method": "deeprv",
+    "max_locations": 1024,
+    "number_parameters": 5000,
+    "number_replicates": 50,
+    "number_years": 4,
+    "number_summaries": 16,
+    "results_per_chunk": 100,
+    "jitter": 0.0005
+  },
+  "experiment_seed": 123,
+  "seed_provenance": "current make_design.py default; historical size-only seed was not recovered"
+}

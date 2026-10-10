@@ -1,0 +1,114 @@
+{
+  "sampling": {
+    "active_location_distribution": {
+      "distribution": "DiscreteUniform",
+      "maximum": 512,
+      "minimum": 1
+    },
+    "age_distribution": {
+      "counts": [
+        263,
+        145,
+        111,
+        90,
+        76,
+        62,
+        53,
+        43,
+        52
+      ],
+      "distribution": "Empirical",
+      "probabilities": [
+        0.293854748603352,
+        0.16201117318435754,
+        0.12402234636871508,
+        0.1005586592178771,
+        0.08491620111731843,
+        0.06927374301675977,
+        0.05921787709497207,
+        0.048044692737430165,
+        0.05810055865921788
+      ],
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "conditional_size_priors": {
+      "age_0": {
+        "distribution": "Normal",
+        "mean": 2.6,
+        "sd": 0.2
+      },
+      "age_1": {
+        "distribution": "Normal",
+        "mean": 2.9,
+        "sd": 0.2
+      },
+      "age_2": {
+        "distribution": "Normal",
+        "mean": 3,
+        "sd": 0.2
+      },
+      "age_3_plus": {
+        "distribution": "Normal",
+        "mean": 3.15,
+        "sd": 0.2
+      }
+    },
+    "coordinate_order": [
+      "size",
+      "age"
+    ],
+    "jitter": 0.0005,
+    "kernel_variance": 1,
+    "lengthscale_priors": {
+      "age": {
+        "distribution": "LogNormal",
+        "log_mean": 2,
+        "log_sd": 1.5
+      },
+      "size": {
+        "distribution": "LogNormal",
+        "log_mean": 0,
+        "log_sd": 1.5
+      }
+    },
+    "location_ordering": "sampled_order",
+    "padding": "active_prefix_mask"
+  },
+  "training": {
+    "age_0_size_mean": 2.6,
+    "age_1_size_mean": 2.9,
+    "age_2_size_mean": 3,
+    "age_3_plus_size_mean": 3.15,
+    "age_lengthscale_log_mean": 2,
+    "batch_size": 8,
+    "checkpoint_interval": 100000,
+    "clip_norm": 3,
+    "data_path": "/ceph/volumes/homes_tstudent/wolf7754/a91786a3-1773-45ee-aaee-22b14a3491b7/dl4bi/SOAYSHEEP/IBMs/Age_Size/gp_ibm_dataset_agesize.csv",
+    "dim": 128,
+    "jitter": 0.0005,
+    "learning_rate": 0.0001,
+    "lengthscale_log_sd": 1.5,
+    "max_locations": 512,
+    "min_locations": 1,
+    "num_blocks": 4,
+    "num_rff_features": 512,
+    "num_steps": 2000000,
+    "output_dir": "/ceph/volumes/homes_tstudent/wolf7754/a91786a3-1773-45ee-aaee-22b14a3491b7/dl4bi/SOAYSHEEP/transformer_train_results/AGE_SIZE/transformer_deeprv_age_size_1_512_2m_job_66312",
+    "seed": 23,
+    "size_lengthscale_log_mean": 0,
+    "size_sd": 0.2,
+    "validation_interval": 400000,
+    "validation_steps": 10000,
+    "wandb_mode": "online"
+  }
+}

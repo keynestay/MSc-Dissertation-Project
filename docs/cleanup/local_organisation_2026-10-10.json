@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-10",
+  "retained_original_sources": 128,
+  "new_tree_files": 182,
+  "removed_entries": 31355,
+  "logical_bytes_removed": 6195655787,
+  "by_root": {
+    "ABC_results": {
+      "entries": 47,
+      "logical_bytes": 16181965
+    },
+    "DeepRV_Evaluation": {
+      "entries": 10079,
+      "logical_bytes": 727406494
+    },
+    "DeepRV_SPEED": {
+      "entries": 7,
+      "logical_bytes": 7223322
+    },
+    "dl4bi": {
+      "entries": 21077,
+      "logical_bytes": 3842455765
+    },
+    "soay_dowson_landau_73275": {
+      "entries": 76,
+      "logical_bytes": 1439328963
+    },
+    "soay_dowson_landau_draw_counts_73309": {
+      "entries": 25,
+      "logical_bytes": 71059054
+    },
+    "soay_dowson_landau_exact_gp_73281": {
+      "entries": 7,
+      "logical_bytes": 31621967
+    },
+    "transformer_deeprv_age_size_1_512_2m_job_66312": {
+      "entries": 37,
+      "logical_bytes": 60378257
+    }
+  },
+  "verification": {
+    "static_checks": {
+      "python": 116,
+      "notebooks": 26,
+      "code_cells": 273,
+      "shell": 6
+    },
+    "removals_verified": 31355,
+    "git_unchanged": true,
+    "eligible_files": 184,
+    "eligible_bytes": 1595727,
+    "byte_identical_python_sources": 48
+  },
+  "git_directory_logical_bytes": 1284254146,
+  "git_uploaded": false,
+  "git_staged": false,
+  "git_committed": false,
+  "generated_artifacts_retained": false,
+  "detailed_manifest_local_path": "/private/tmp/dl4bi_final_cleanup_7_jgqd4i/apply_plan.json"
+}

@@ -1,0 +1,9 @@
+# Remaining Reproduction Gaps
+
+1. **Size-only training prior:** job 66235 records `size_mean=3`, `size_sd=0.5`, `lengthscale_mean=2`, and `lengthscale_variance=4`. The retained trainer uses a LogNormal prior with `lengthscale_log_mean` and `lengthscale_log_sd`, and different default size settings. Location range, architecture, training steps, and seed are recovered, but the historical lengthscale parameterisation is unresolved. Source code was preserved; no statistical change or guessed parameter conversion was made.
+2. **gMLP Table 6:** training and posterior sampling are retained. The original Colab code calculating the population metrics was not recovered. The recorded training/inference timings also appear to be reversed in the submitted table. Notebook training settings are documented, but their original Colab invocation is unavailable.
+3. **Age-size covariance Figure 8:** the author confirmed year 2. The available job 73379 record pools years 2–4. The launcher now requests `--years 2`, and historical pooling remains documented separately. The original year-2-only result record was not found.
+4. **Age-size speed Table 13:** the scripts remain, but the original JSON recording 1390.08/1426.46 seconds was not found. Size-only Table 12 settings were recovered from `DeepRV_SPEED`.
+5. **Exact regeneration:** outputs are deliberately omitted. Generator code remains, but stochastic library/version changes, missing historical seed records, and new hardware can change results. Full training, MCMC, ABC, GPU validation, and cluster benchmarks have not been rerun during cleanup. Mixed JAX/GPflow ABC dependency installation remains to be validated.
+
+These gaps do not prevent local organisation or source upload. They limit claims of exact reproduction of the submitted numerical results.
